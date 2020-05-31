@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome To The DevConnector</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-- navabr -->
+    <nav class="navbar bg-drak">
+        <h1>
+            <a href="dashbord.html"><i class="fa fa-code"></i>DevConnector</a>
+        </h1>
+        <ul>
+            <li><a href="profile.html">Developers</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <!-- end navbar -->
+    <!-- create profile -->
+    <section class="container">
+        <h1 class="large text-primary my-2">
+            Create Your Profile
+        </h1>
+        <p class="lead">
+            <i class="fa fa-user"></i>Let's get aome
+             information to make your profile stand out
+        </p>
+        <small>* = required fields</small>
+        <form action="" class="form">
+            <div class="form-group">
+                <select name="status">
+                    <option value="0">* select professional Status</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Junior Developer">Junior Developer</option>
+                    <option value="Senior Developer">Senior Developer</option>
+                    <option value="Manager">Manager</option>
+                    <option value="Student or learning">Student or learning</option>
+                    <option value="Instructor">Instructor</option>
+                    <option value="Intern">Intern</option>
+                    <option value="othor">Othor</option>
+                </select>
+                <small class="form-text">
+                    Give us an idea of where you are at in your career
+                </small>
+            </div>
+            <!-- company -->
+            <div class="form-group">
+                <input type="text" name="company" placeholder="company">
+                <small class="text-form">
+                    Coult be own company or one you work for
+                </small>
+            </div>
+            <!-- website -->
+            <div class="form-group">
+                <input type="text" name="website" placeholder="website">
+                <small class="text-form">
+                    Coult be own company or a company website
+                </small>
+            </div>
+            <!-- location -->
+            <div class="form-group">
+                <input type="text" name="location" placeholder="location">
+                <small class="text-form">
+                   City & state suggested
+                </small>
+            </div>
+            <!-- skills -->
+            <div class="form-group">
+                <input type="text" name="skills" placeholder="* skills">
+                <small class="text-form">
+                  please use comma separated values(eg.HTML,CSS,JAVASCRIPT,PHP)
+                </small>
+            </div>
+            <!-- github -->
+            <div class="form-group">
+                <input type="text" name="Github username" placeholder="* Github username">
+                <small class="text-form">
+                if you want your latest repos and a Github link,include your username
+                </small>
+            </div>
+            <!-- about you -->
+            <div class="form-group">
+               <textarea name="bio" placeholder="A short bio of yourself"></textarea>
+                <small class="text-form">
+                Tell us a little about yourself
+                </small>
+            </div>
+            <div class="my-2">
+                <button type="button" class="btn btn-light">
+                    Add Social network links
+                </button>
+                <span>Optional</span>
+            </div>
+            <!-- add social -->
+            <div class="form-group social-input">
+                <i class="fa fa-twitter fa-2x"></i>
+                <input type="text" placeholder="Twitter URL">
+            </div>
+            <br>
+            <div class="form-group social-input">
+                <i class="fa fa-facebook fa-2x"></i>
+                <input type="text" placeholder="facebook URL">
+            </div>
+            <br>
+            <div class="form-group social-input">
+                <i class="fa fa-youtube fa-2x"></i>
+                <input type="text" placeholder="youtube URL">
+            </div>
+            <br>
+            <div class="form-group social-input">
+                <i class="fa fa-linkedin fa-2x"></i>
+                <input type="text" placeholder="linkedin URL">
+            </div>
+            <br>
+            <div class="form-group social-input">
+                <i class="fa fa-instagram fa-2x"></i>
+                <input type="text" placeholder="instagram URL">
+            </div>
+            <input type="submit" class="btn btn-primary my-1">
+            <a href="dashbord.html" class="btn btn-light my-1">Go Back</a>
+
+        </form>
+
+    </section>
+    <!-- end create profile -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
